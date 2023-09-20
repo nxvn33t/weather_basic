@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+th, td {
+    
+    padding: 8px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.main-topic{
+    text-decoration: underline;
+}

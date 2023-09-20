@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),url(Feature.jpg);
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav_div{
+    padding: 3rem 0;
+    text-align: center; 
+    align-items: center;
+}
+.nav_div:hover li{
+   filter: blur(1px)
+}
+.nav-ul{
+    gap:9rem;
+    display:flex;
+}
+.nav-ul a{
+    position: relative;
+    left: 33%;
+    color:rgb(251, 251, 251);
+    text-decoration: none;
+}
+.nav-ul :hover li{
+    filter: blur(0);
+}
+.nav-ul li{
+    font-size:1.3rem;
+    list-style: none;
+}
+.image_div{
+    padding-top: 2rem;
+    display: flex;
+}
+.cloud_png{
+    position: relative;
+    left:34%;
+    height: 3.5rem;
+}
+.weather_head{
+    position: relative;
+    left:35%;
+    color: rgb(254, 254, 254);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.two{
+    padding-top: 3rem;
+    position: relative;
+    left: 37%;
+}
+.form{
+    position: relative;
+    left: 18%;
+}
+.sb-search{
+    height: 20rem;
+    width: 25rem;
+    /* background-color: transparent; */
+    opacity: 0.7;
+    padding-top: 8rem;
+    border: 1px rgb(166, 130, 130);
+    box-shadow: 10px 10px 10px 10px rgb(15, 12, 12);
+    
+}
+.sb-search h2{
+    font-size: 2rem;
+    text-decoration: underline;
+    position: relative;
+    left:27%;
+    bottom:19%;
+    color: rgb(254, 254, 254);
+}
+.search-wrapper {
+    position: relative;
+    bottom:8%;
+    display: flex;
+}
+
+.submit{
+    padding: 3px 5px;
+    position: relative;
+    left: 7.2%;
+}
+.search-input{
+    padding: 8px 4rem;
+    position: relative;
+    left: 7.2%;
+}
+input[type='Search']{
+    text-align:center;
+    }
+    
+input[type='Search']:focus{
+    text-align:center;
+    }
+footer{
+    font-weight: lighter;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color:rgb(139, 142, 144);
+    text-align: center;
+}
+.api-div h1{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.weather-api{
+    padding-top: 1rem;
+}
+.location, .error{
+    padding-top: .8rem;
+    text-align: center;
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+

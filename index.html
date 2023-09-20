@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="nav_div">
+    <nav class="navbar">
+        <ul class="nav-ul">
+            <a href="#" id="openPageLink1" onclick="openNewPage1()"> <li>Home</li></a>
+            <a href="#" id="openPageLink" onclick="openNewPage()"> <li>Top Cities</li></a>
+            <a href="#" id="openPageLink2" onclick="openNewPage2()">  <li>Feedback</li></a>
+        </ul>
+    </nav>
+</div>
+    <main class="one">
+        <div class="image_div"><img class="cloud_png" src="cloud-logo.png" alt="">
+            <h1 class="weather_head">Weather Report</h1>
+        </div>
+    </main>
+
+    <main class="two">
+        <div class="sb-search" class="sb-search">
+            <h2>Enter your city :</h2>
+            <div class="search-wrapper">
+                <input class="search-input" id="city" placeholder="City" type="Search" value="" name="search" id="search"/>
+                <!-- <input  onclick="getWeather()"> -->
+                <button class="submit" value="Submit" type="submit" onclick="getWeather()">Get Weather</button>
+            </div>
+            <div class="api-div">
+                <h1>Current Weather :</h1>
+                <div id="weather" class="weather-api"></div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <h3>Copyright : Deshwals © 2023-2024©  </h3>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

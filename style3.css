@@ -1,0 +1,36 @@
+.feedback-div{
+    position: relative;
+    left: 37%;
+    height: 20rem;
+}
+form{
+    color:white;
+}
+form label{
+    padding-bottom: 2rem;
+}
+form button{
+    padding: 6px 8px;
+    position: relative;
+    left:10%;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 2.9rem;
+}
+.name-input{
+    padding:.7rem 3rem;
+}
+.mailing-input{
+    padding:.7rem 3.1rem;
+}
+.fedback-input{
+    padding:.7rem 3.5rem;
+}
+footer{
+    height: 2.5rem;
+}
